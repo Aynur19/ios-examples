@@ -14,6 +14,7 @@
 		986432032AC8848100EC6B70 /* SwiftUI_ExamplesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986432022AC8848100EC6B70 /* SwiftUI_ExamplesTests.swift */; };
 		9864320D2AC8848100EC6B70 /* SwiftUI_ExamplesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9864320C2AC8848100EC6B70 /* SwiftUI_ExamplesUITests.swift */; };
 		9864320F2AC8848100EC6B70 /* SwiftUI_ExamplesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9864320E2AC8848100EC6B70 /* SwiftUI_ExamplesUITestsLaunchTests.swift */; };
+		9864321C2AC8855E00EC6B70 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9864321B2AC8855D00EC6B70 /* LoadingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		986432082AC8848100EC6B70 /* SwiftUI ExamplesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI ExamplesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9864320C2AC8848100EC6B70 /* SwiftUI_ExamplesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_ExamplesUITests.swift; sourceTree = "<group>"; };
 		9864320E2AC8848100EC6B70 /* SwiftUI_ExamplesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_ExamplesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9864321B2AC8855D00EC6B70 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				986431F32AC8847800EC6B70 /* ContentView.swift */,
 				986431F52AC8848000EC6B70 /* Assets.xcassets */,
 				986431F72AC8848000EC6B70 /* Preview Content */,
+				9864321B2AC8855D00EC6B70 /* LoadingView.swift */,
 			);
 			path = "SwiftUI Examples";
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			files = (
 				986431F42AC8847800EC6B70 /* ContentView.swift in Sources */,
 				986431F22AC8847800EC6B70 /* SwiftUI_ExamplesApp.swift in Sources */,
+				9864321C2AC8855E00EC6B70 /* LoadingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
