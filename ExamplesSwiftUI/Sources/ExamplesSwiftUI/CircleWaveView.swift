@@ -1,13 +1,13 @@
 //
-//  CircleWaveView.swift
-//  SwiftUI Examples
+//  SwiftUIView.swift
+//  
 //
-//  Created by Aynur Nasybullin on 02.10.2023.
+//  Created by Aynur Nasybullin on 09.10.2023.
 //
 
 import SwiftUI
 
-class CircleWaveViewModel: Identifiable, ObservableObject {
+public class CircleWaveViewModel: Identifiable, ObservableObject {
     let id = UUID().uuidString
     let color: Color
     let position: CGPoint
@@ -42,7 +42,7 @@ class CircleWaveViewModel: Identifiable, ObservableObject {
     }
 }
 
-struct CircleWaveViewConfig {
+public struct CircleWaveViewConfig {
     let colors: [Color]
     
     let position: CGPoint
@@ -127,7 +127,7 @@ struct CircleWaveViewConfig {
     }
 }
 
-struct CircleWaveView: View {
+public struct CircleWaveView: View {
     @State private var circleWaves: [CircleWaveViewModel] = []
 
     private let options: CircleWaveViewConfig
@@ -225,7 +225,7 @@ struct CircleWaveView: View {
     }
 }
 
-struct WaveView_Previews: PreviewProvider {
+struct CircleWaveView_Previews: PreviewProvider {
     static var previews: some View {
         ZStack {
             Color.black.ignoresSafeArea()
