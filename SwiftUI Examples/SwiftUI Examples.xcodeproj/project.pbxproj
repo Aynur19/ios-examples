@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9829A69D2AD43A44004E6377 /* OverlappedCirclesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9829A69C2AD43A44004E6377 /* OverlappedCirclesView.swift */; };
 		986431F22AC8847800EC6B70 /* SwiftUI_ExamplesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986431F12AC8847800EC6B70 /* SwiftUI_ExamplesApp.swift */; };
 		986431F42AC8847800EC6B70 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986431F32AC8847800EC6B70 /* ContentView.swift */; };
 		986431F62AC8848000EC6B70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 986431F52AC8848000EC6B70 /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9829A69C2AD43A44004E6377 /* OverlappedCirclesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlappedCirclesView.swift; sourceTree = "<group>"; };
 		986431EE2AC8847800EC6B70 /* SwiftUI Examples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Examples.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		986431F12AC8847800EC6B70 /* SwiftUI_ExamplesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_ExamplesApp.swift; sourceTree = "<group>"; };
 		986431F32AC8847800EC6B70 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				98C97B222ACB4E040023DBCA /* CircleWaveView.swift */,
+				9829A69C2AD43A44004E6377 /* OverlappedCirclesView.swift */,
 			);
 			path = Circles;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9829A69D2AD43A44004E6377 /* OverlappedCirclesView.swift in Sources */,
 				986431F42AC8847800EC6B70 /* ContentView.swift in Sources */,
 				986431F22AC8847800EC6B70 /* SwiftUI_ExamplesApp.swift in Sources */,
 				9864321C2AC8855E00EC6B70 /* LoadingView.swift in Sources */,
